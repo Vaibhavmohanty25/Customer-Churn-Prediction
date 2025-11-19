@@ -47,7 +47,7 @@ Visit: http://127.0.0.1:5000
 🧩 Project Structure
 cx-churn-simulator/
 │
-├── app.py                     # Main Flask application
+├── app.py                     # Main Flask application 
 ├── src/
 │   ├── data_preparation/      # Data cleaning and preprocessing scripts
 │   ├── modeling/              # ML model training and prediction logic
