@@ -44,8 +44,9 @@ python app.py
 
 Visit: http://127.0.0.1:5000
 
-🧩 Project Structure
+\section*{Project Structure}
 
+\begin{verbatim}
 cx-churn-simulator/
 │
 ├── app.py                     # Main Flask application
@@ -65,6 +66,8 @@ cx-churn-simulator/
 │   └── processed/             # Cleaned and feature-engineered datasets
 │
 └── README.md                  # Documentation
+\end{verbatim}
+
 
 
 📊 Model Overview
