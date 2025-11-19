@@ -28,7 +28,7 @@ Authentication: JWT-based (optional for enterprise setup)
 
 ⚙️ Installation
 1. Clone the Repository
-git clone https://github.com/yourusername/cx-churn-simulator.git
+git clone https://github.com/Vaibhavmohanty25/cx-churn-simulator.git
 cd cx-churn-simulator
 
 2. Set Up Virtual Environment
