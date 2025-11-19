@@ -45,19 +45,27 @@ python app.py
 Visit: http://127.0.0.1:5000
 
 🧩 Project Structure
+
 cx-churn-simulator/
 │
-├── app.py                     # Main Flask application 
+├── app.py                     # Main Flask application
+│
 ├── src/
 │   ├── data_preparation/      # Data cleaning and preprocessing scripts
 │   ├── modeling/              # ML model training and prediction logic
 │   ├── simulator/             # Q-learning / CX environment simulation
 │   └── utils/                 # Helper utilities
-├── templates/                 # HTML templates for UI
-├── static/                    # CSS, JS, and assets
-├── models/                    # Saved ML models
-├── data/                      # Raw and processed datasets
-└── README.md
+│
+├── templates/                 # HTML templates and page layouts
+├── static/                    # CSS, JavaScript, images, animations
+│
+├── models/                    # Trained ML and RL models (.pkl / .pth)
+├── data/
+│   ├── raw/                   # Unprocessed datasets
+│   └── processed/             # Cleaned and feature-engineered datasets
+│
+└── README.md                  # Documentation
+
 
 📊 Model Overview
 
